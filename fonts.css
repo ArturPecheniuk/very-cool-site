@@ -1,0 +1,78 @@
+
+body{
+	background-color: lightgreen;
+}
+p{
+	font-size: 50px;
+	color: red;
+	font-family: "Gill Sans", sans-serif;
+}
+.first{
+	font-family: 'Marck Script', cursive;
+	color: blue;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.second{
+	font-family: 'Pacifico', cursive;
+}
+.third{
+	font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}body{
+	background-color: lightcoral;
+}
+p{
+	font-size: 50px;
+	color: lime;
+	text-align: center;
+}
+table{
+	border: double 5px lime;
+	width: 50%;
+background: linear-gradient(#f00,#0f0,#00f,#ff0,#f0f);
+}
+th,td{
+	border: solid 2px blue;
+	width: 25%;
+	height: 1см;
+	font-size: 24px;
+}
+tr:hover{
+	background-color: grey;
+}
+td:hover{
+	background: linear-gradient(#f00,#0f0,#00f,#ff0,#f0f);
+	color: maroon;
+	font-size: 2em;
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: gold;
+}
+.fl{
+	font-size: 2em;
+font-family: 'Marck Script', cursive;
+color: violet;
+font-style: italic;
+}
+.underline{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: blue;
+	text-decoration-posittion: under;
+}
+.shadow1{
+	text-shadow: 3px 3px 10px violet;
+	font-weight: 900;
+}
+
+.shadow2{
+	text-shadow: 0 0 10px maroon;
+	font-weight: 900;
+}
+.shadow3{
+	text-shadow: 0 0 10px maroon, 0 0 20px blue;
+	font-weight: 900;
+
+}

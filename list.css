@@ -1,0 +1,23 @@
+body{
+	background-color: lightgrey;
+}
+p{
+	font-size: 50px;
+	font-family: cursive;
+}
+ul,ol{
+	font-size: 24px;
+	color: goldenrod;
+	margin-left: 150px;
+}
+.li1 li{
+list-style-type: "⚜";
+}
+ul li::marker{
+	font-size: 150%;
+	color: red;
+}
+ol li::marker{
+	color: violet;
+	font-weight: 700;
+}
